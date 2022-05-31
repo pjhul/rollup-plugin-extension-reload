@@ -1,4 +1,30 @@
 {
-  "name": "rollup-plugin-livereload-extension",
-  "packageManager": "yarn@3.2.1"
+  "name": "rollup-plugin-extension-reload",
+  "version": "0.1.0",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.es.js",
+  "author": "Paul Hultgren",
+  "homepage": "https://github.com/pjhul/rollup-plugin-extension-reload",
+  "license": "MIT",
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w"
+  },
+  "keywords": [
+    "rollup",
+    "rollup-plugin"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pjhul/rollup-plugin-extension-reload"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^22.0.0",
+    "@rollup/plugin-node-resolve": "^13.3.0",
+    "port-authority": "^2.0.1",
+    "rollup": "^2.75.3"
+  },
+  "dependencies": {
+    "ws": "^8.7.0"
+  }
 }

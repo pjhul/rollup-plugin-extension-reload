@@ -1,1 +1,1 @@
-# rollup-plugin-livereload-extension
+# rollup-plugin-extension-reload
